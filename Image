@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prince Photo Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    .navbar h1 {
+      color: white;
+      margin: 0;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+    .content {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    h2 {
+      margin-top: 40px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Welcome to Prince Photo Studio</h1>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Pre-Wedding</a>
+    <a href="#">Wedding</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="content">
+    <h2>Capturing Moments, Creating Memories</h2>
+
+    <!-- Pre-Wedding Gallery -->
+    <h2>Pre-Wedding Gallery</h2>
+    <div class="gallery">
+      <img src="images/pre-wedding/003.jpg" alt="Pre-Wedding 1">
+      <img src="images/pre-wedding/02.jpg" alt="Pre-Wedding 2">
+      <img src="images/pre-wedding/06.jpg" alt="Pre-Wedding 3">
+      <img src="images/pre-wedding/DSC_0435.jpg" alt="Pre-Wedding 4">
+      <img src="images/pre-wedding/DSC_0564.jpg" alt="Pre-Wedding 5">
+      <img src="images/pre-wedding/MUN_0400.jpg" alt="Pre-Wedding 6">
+      <img src="images/pre-wedding/vf.jpg" alt="Pre-Wedding 7">
+    </div>
+
+    <!-- Wedding Gallery -->
+    <h2>Wedding Gallery</h2>
+    <div class="gallery">
+      <img src="images/wedding/01.jpg" alt="Wedding 1">
+      <img src="images/wedding/11.jpg" alt="Wedding 2">
+      <img src="images/wedding/18B.jpg" alt="Wedding 3">
+      <img src="images/wedding/24B.jpg" alt="Wedding 4">
+      <img src="images/wedding/Last .jpg" alt="Wedding 5">
+    </div>
+
+  </div>
+
+</body>
+</html>
