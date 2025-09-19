@@ -1,23 +1,5 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; line-height: 1.6; }
-header { background: #111; color: #fff; padding: 15px 30px; }
-nav { display: flex; justify-content: space-between; align-items: center; }
-nav ul { list-style: none; display: flex; }
-nav ul li { margin-left: 20px; }
-nav ul li a { color: #fff; text-decoration: none; transition: 0.3s; }
-nav ul li a:hover, nav ul li a.active { color: #f39c12; }
-.hero { height: 90vh; background: url("../images/hero.jpg") center/cover no-repeat; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
-.hero h1 { font-size: 3rem; }
-.hero p { margin: 15px 0; font-size: 1.2rem; }
-.btn { padding: 10px 20px; background: #f39c12; color: #fff; border-radius: 5px; text-decoration: none; }
-.btn:hover { background: #d35400; }
-.content { padding: 40px; }
-.content h1 { margin-bottom: 20px; }
-.gallery { padding: 40px; }
-.gallery h1 { margin-bottom: 20px; }
-.photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
-.photos img { width: 100%; border-radius: 10px; }
-form { display: flex; flex-direction: column; max-width: 400px; }
-form input, form textarea { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
-form button { padding: 10px; background: #f39c12; color: #fff; border: none; border-radius: 5px; }
-form button:hover { background: #d35400; }
+body { font-family: Arial; text-align: center; background: #fafafa; }
+header { background: #333; padding: 15px; color: white; }
+header nav a { margin: 0 10px; color: white; text-decoration: none; }
+header nav a:hover { color: #f39c12; }
+.gallery { padding: 20px; }
